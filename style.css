@@ -1,0 +1,323 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+
+#geral {
+    display: flex;
+    width: 100%;
+}
+
+
+#barra-lateral {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;      
+    width: 20%; 
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 60px 20px;       
+    text-align: center;
+    position: fixed; 
+    left: 0;
+    top: 20;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    height: 190px;            
+    width: 190px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.nome-perfil {
+    font-size: 1.5rem;
+    font-weight: 800;         
+    color: #000000;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+}
+
+.menu-opcao {
+    margin: 12px 0;
+    color: #444444;
+    font-size: 0.85rem;
+    font-weight: 600;
+    width: max-content;       
+}
+
+.inicial {
+    color: #000000;
+    font-weight: 800;
+    border-bottom: 2px solid #000000; 
+    padding-bottom: 3px;
+    display: inline-block;
+}
+
+.news {
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto; 
+} 
+
+
+.news-titulo {
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+.email-local {
+    display: flex;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 5px;
+    width: 100%;              
+}
+
+.news-input {
+    border: none;
+    font-size: 0.8rem;
+    width: 100%;
+    padding: 5px;
+    background: transparent;
+    text-align: center;       
+}
+
+#conteudo-principal {
+    width: 80%;
+    margin-left: 20%; 
+}
+
+
+#secçao-intro {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.coluna-imagem {
+    width: 50%;
+    height: 100%;
+}
+
+.imgmain {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.conteudo-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    width: 50%;
+    background-color: #ffffff;
+    padding: 60px;
+}
+
+
+.apresentacao-fundo {  
+    margin-bottom: 15px;
+}
+
+.subtitulo-fundo {
+    color: #999999;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    position: absolute; 
+    z-index: 1;
+    right: 610px;
+    top: 225px;
+}
+
+.nome-fundo {
+    color: #e0e0e0;         
+    font-size: 5.0rem;     
+    font-weight: 900;
+    letter-spacing: -2px;  
+    position: absolute;
+    top: 160px;
+    right: 271.5px;
+}
+
+
+.descricao {  
+    margin-top: 0px;       
+}
+
+.titulo-descricao {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 8px;
+    line-height: 1.5cm;
+    
+}
+
+.texto-laranja {
+    color: #ccb78f;
+}
+
+.paragrafo-descricao {
+    color: #777777;
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+}
+
+.assinatura {
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+
+.imglogos {
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    margin-right: 15px; 
+}
+
+.social-icon img {
+    height: 18px;
+    width: 18px;
+    object-fit: contain;
+}
+
+
+#seccao-instagram {
+    background-color: #ffffff;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.instagram-titulo {
+    font-size: 1rem;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.instagram-grid {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+}
+
+.insta-box {
+    width: 150px;   
+    height: 150px;  
+    margin: 0 5px;  
+}
+
+.insta-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#seccao-rodape {
+    background-color: #222222;
+    color: #dddddd;
+    padding: 80px 60px 40px 60px;
+}
+
+.rodape-colunas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.rodape-col {
+    width: 30%;
+}
+
+.rodape-titulo {
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+
+.mini-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px; 
+   
+}
+
+.mini-galeria img {
+    width: 93px;
+    height: 94px;
+    object-fit: cover;
+    margin: 3px; 
+}
+
+
+.lista-arquivos {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-arquivo {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #333333;
+    font-size: 0.9rem;
+    color: #aaaaaa;
+}
+
+.qtd {
+    color: #666666;
+}
+
+
+.contatos-rodape p {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    color: #aaaaaa;
+}
+
+
+.rodape-direitos {
+    text-align: center;
+    border-top: 1px solid #333333;
+    padding-top: 30px;
+    font-size: 0.85rem;
+    color: #666666;
+}
